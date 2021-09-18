@@ -1,0 +1,65 @@
+
+	.butt {
+		background-color: rgb(133, 76, 118);
+		margin-top: 20px;
+		font-size: large;
+		font-style: italic;
+	}
+
+	h1 {
+		color: rgb(233, 213, 241);
+		font-size: 45px;
+	}
+
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 80px;
+		height: 52px;
+		margin: auto;
+		border: 1px solid rgb(75, 61, 199);
+		color: aliceblue;
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	#but {
+		box-sizing: border-box;
+		width: 95px;
+		height: 40px;
+		border: 1px solid maroon;
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: rgb(218, 122, 122);
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: rgb(225, 221, 231);
+		font-size: 20px;
+	}
+
+	#main {
+		text-align: center;
+        background-color: rgb(46, 30, 33);
+		padding-top: 20px;
+		padding-bottom: 100px;
+		width: 100%;
+	}
+
+	#game {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: rgb(185, 134, 230);
+		font-size: 17px;
+	}

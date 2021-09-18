@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tic.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Tic Tac Toe</h1>
+
+        <p id="game">Click on the box to start the game<br>
+            <br>Player 1 as 
+            <b>Player X</b><br><br> 
+            Player 2 as <b>Player 0</b>
+        </p>
+        <div>
+            <input type="text" id="b1" onclick="myFunc1(); myFunc();" readonly>
+            <input type="text" id="b2" onclick="myFunc2(); myFunc();" readonly>
+            <input type="text" id="b3" onclick="myFunc3(); myFunc();" readonly> <br>
+
+            <input type="text" id="b4" onclick="myFunc4(); myFunc();" readonly>
+            <input type="text" id="b5" onclick="myFunc5(); myFunc();" readonly>
+            <input type="text" id="b6" onclick="myFunc6(); myFunc();" readonly> <br>
+
+            <input type="text" id="b7" onclick="myFunc7(); myFunc();" readonly>
+            <input type="text" id="b8" onclick="myFunc8(); myFunc();" readonly>
+            <input type="text" id="b9" onclick="myFunc9(); myFunc();" readonly> <br>
+
+            <button id="button" class="butt" onclick="myFunc10();">RESET</button>
+
+            <p id="print"></p>
+        </div>
+    </div>
+
+    <script src="toe.js"></script>
+</body>
+</html>
